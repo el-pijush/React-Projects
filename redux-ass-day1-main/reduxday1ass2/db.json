@@ -1,0 +1,20 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "todo": "learn redux"
+    },
+    {
+      "id": 2,
+      "todo": "learn react"
+    },
+    {
+      "id": "1654182552914",
+      "todo": "learn manali"
+    },
+    {
+      "id": "1654182564929",
+      "todo": "learn dancing"
+    }
+  ]
+}
