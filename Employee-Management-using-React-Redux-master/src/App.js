@@ -63,7 +63,7 @@ class App extends Component{
       <div className="header sticky-top">
       <SideBar 
       click={(opt)=>this.changeSide(opt)}/>
-      <h1><b>Xander Application</b></h1>
+      <h1><b>Masai employee management</b></h1>
       </div>
       <body>
       <div className='main-component'>
