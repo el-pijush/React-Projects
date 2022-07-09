@@ -1,0 +1,2 @@
+ /*the problem with our variable btnNum in your case btnNum  is a global variable and incremented on each iteration and finallybtnNum value
+   is 3 and prizes have not 3rd index that's why we got undefined./

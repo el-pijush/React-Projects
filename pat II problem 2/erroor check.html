@@ -1,0 +1,19 @@
+<button id="btn-0">Button 1</button>
+  <button id="btn-1">Button 2</button>
+  <button id="btn-2">Button 3</button>
+  <p id="prize"></p>
+
+
+
+  <script>
+        var prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+    for (var btnNum = 0; btnNum < prizes.length; btnNum++) {
+      console.log(prizes);
+      document.getElementById(`btn-${btnNum}`).onclick = function() {
+       
+
+        let prize=document.getElementById("prize")
+        prize.innerHTML=(prizes[this.id.replace('btn-', '')]);
+      };
+    }
+  </script>
